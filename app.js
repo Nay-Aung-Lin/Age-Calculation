@@ -22,7 +22,7 @@ button.addEventListener("click", function () {
       fullYear -= 1;
     }
 
-    display.innerHTML = `You are pass ${fullYear - year}Years  ${
+    display.innerHTML = `You had passed ${fullYear - year}Years  ${
       passMonth - month
     }Months and ${passDay - day}Days`;
   } else {
