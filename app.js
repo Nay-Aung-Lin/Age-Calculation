@@ -14,7 +14,7 @@ button.addEventListener("click", function () {
 
     let monthArr = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     if (passDay < day) {
-      passsDay += monthArr[passMonth - 1];
+      passDay += monthArr[passMonth - 1];
       passMonth -= 1;
     }
     if (passMonth < month) {
